@@ -109,42 +109,42 @@
             { //class
                 "scope": "storage.type.class.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#6B98F2"
                 } 
             },
 
             { //class name
                 "scope": "entity.name.type.class.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#80e27c"
                 } 
             },
 
             { //class parameter
                 "scope": "support.type.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D69D85"
                 } 
             },
 
             { //class ()
                 "scope": "meta.class.inheritance.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { //class :
-                "scope": "punctuation.section.class.python",
+                "scope": "punctuation.section.class.begin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { //imbetted class
                 "scope": "entity.other.inherited-class.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#06b600"
                 } 
             },
 
@@ -153,91 +153,105 @@
             { //Function Call
                 "scope": "meta.function-call.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#F2CA50"
                 } 
             },
 
             { //Function Build in
                 "scope": "support.function.builtin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#F2CA50"
                 } 
             },
 
             { //decorator
                 "scope": "entity.name.function.decorator.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#ff5b5b"
                 } 
             },
 
             { //Constructor
                 "scope": "support.function.magic.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#80e27c"
                 } 
             },
 
             { //def
                 "scope": "storage.type.function.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#6B98F2"
                 } 
             },
 
             { //function name
                 "scope": "entity.name.function.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#F2CA50"
                 } 
             },
 
             { // ()
                 "scope": "punctuation.definition.arguments.begin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { // ()
                 "scope": "punctuation.definition.arguments.end.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { // ()
                 "scope": "punctuation.definition.parameters.begin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { // ()
                 "scope": "punctuation.definition.parameters.end.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { //parameter self
                 "scope": "variable.parameter.function.language.special.self.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#80e27c"
                 } 
             },
 
             { //parameter
                 "scope": "variable.parameter.function.language.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D69D85"
+                } 
+            },
+
+            { //parameter call
+                "scope": "meta.function-call.arguments.python",
+                "settings": {
+                    "foreground": "#D69D85"
                 } 
             },
 
             { // :
-                "scope": "punctuation.section.class.begin.python",
+                "scope": "punctuation.separator.colon.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
+                } 
+            },
+
+            { // :
+                "scope": "punctuation.section.function.begin.python",
+                "settings": {
+                    "foreground": "#f0f0f0"
                 } 
             },
 
@@ -267,21 +281,21 @@
             { //import
                 "scope": "keyword.control.import.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //from // if else
                 "scope": "keyword.control.flow.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //import source
                 "scope": "source.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#dddddd"
                 } 
             },
 
@@ -290,21 +304,28 @@
             { //string
                 "scope": "string.python",
                 "settings": {
-                    "foreground": "#379252"
+                    "foreground": "#80e27c"
                 } 
             },
 
             { //number
                 "scope": "constant.numeric.dec.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#00f3df"
                 } 
             },
 
             { //var
                 "scope": "variable.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#002df3"
+                } 
+            },
+
+            { //True
+                "scope": "constant.language.python",
+                "settings": {
+                    "foreground": "#6B98F2"
                 } 
             },
 
@@ -318,28 +339,35 @@
             { //string in ''
                 "scope": "string.quoted.single.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D69D85"
                 } 
             },
 
             { //const
                 "scope": "constant.numeric.float.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#00f3df"
                 } 
             },
 
             { //const built in
                 "scope": "constant.language.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#6B98F2"
                 } 
             },
 
             { //self as var
                 "scope": "variable.language.special.self.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#80e27c"
+                } 
+            },
+
+            { //multi
+                "scope": "string.quoted.multi.python",
+                "settings": {
+                    "foreground": "#D69D85"
                 } 
             },
 
@@ -348,35 +376,35 @@
             { //operator
                 "scope": "keyword.operator.assignment.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //+
                 "scope": "keyword.operator.arithmetic.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //==
                 "scope": "keyword.operator.comparison.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //operator
                 "scope": "keyword.operator.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
             { //operator word
                 "scope": "source.python keyword.operator.logical.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#D76CD9"
                 } 
             },
 
@@ -385,7 +413,7 @@
             { //operator
                 "scope": "punctuation.separator.parameters.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
