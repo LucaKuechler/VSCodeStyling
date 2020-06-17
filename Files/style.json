@@ -148,6 +148,13 @@
                 } 
             },
 
+            { //class cls
+                "scope": "variable.parameter.function.language.special.cls.python",
+                "settings": {
+                    "foreground": "#80e27c"
+                } 
+            },
+
 
 //--------------------------- Function ------------------------------------------//          
             { //Function Call
@@ -332,7 +339,7 @@
             { //var built in
                 "scope": "variable.legacy.builtin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#50f2e5"
                 } 
             },
 
@@ -359,6 +366,13 @@
 
             { //self as var
                 "scope": "variable.language.special.self.python",
+                "settings": {
+                    "foreground": "#80e27c"
+                } 
+            },
+
+            { //cls as var
+                "scope": "variable.language.special.cls.python",
                 "settings": {
                     "foreground": "#80e27c"
                 } 
@@ -408,6 +422,21 @@
                 } 
             },
 
+            { //not ()
+                "scope": "punctuation.parenthesis.begin.python",
+                "settings": {
+                    "foreground": "#f0f0f0"
+                } 
+            },
+
+            { //not ()
+                "scope": "punctuation.parenthesis.end.python",
+                "settings": {
+                    "foreground": "#f0f0f0"
+                } 
+            },
+            
+
 
 //--------------------------- Seperator ------------------------------------------// 
             { //operator
@@ -421,10 +450,18 @@
     },
 
     "[json]": {
+    
+    
 
 
 
      
     },
-    "workbench.colorTheme": "Atom One Dark"
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "launch": {
+
+    
+    },
 }
