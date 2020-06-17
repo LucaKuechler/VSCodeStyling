@@ -265,21 +265,21 @@
             { // lambda
                 "scope": "storage.type.function.lambda.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#6B98F2"
                 } 
             },
 
             { // lambda ()
                 "scope": "punctuation.parenthesis.end.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
             { // lambda ()
                 "scope": "punctuation.parenthesis.begin.python",
                 "settings": {
-                    "foreground": "#000000"
+                    "foreground": "#f0f0f0"
                 } 
             },
 
@@ -450,7 +450,7 @@
     },
 
     "[json]": {
-    
+
     
 
 
@@ -460,8 +460,5 @@
     "workbench.colorTheme": "Atom One Dark",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
-    "launch": {
 
-    
-    },
 }
