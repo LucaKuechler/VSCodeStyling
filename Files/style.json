@@ -116,7 +116,8 @@
             { //class name
                 "scope": "entity.name.type.class.python",
                 "settings": {
-                    "foreground": "#80e27c"
+                    "foreground": "#80e27c",
+                    "fontStyle": "bold"
                 } 
             },
 
@@ -195,7 +196,8 @@
             { //function name
                 "scope": "entity.name.function.python",
                 "settings": {
-                    "foreground": "#F2CA50"
+                    "foreground": "#F2CA50",
+                    "fontStyle": "bold"
                 } 
             },
 
@@ -460,5 +462,6 @@
     "workbench.colorTheme": "Atom One Dark",
     "workbench.startupEditor": "newUntitledFile",
     "window.zoomLevel": 0,
+    "python.languageServer": "Microsoft"
 
 }
